@@ -1,0 +1,223 @@
+<!--
+ * Personal Portfolio Website
+ * 
+ * This is a static personal portfolio website developed using HTML5, CSS3, and Bootstrap.
+ * The website is structured into the following main sections:
+ * 1. About Me: This section provides an overview of the individual, including their background and interests.
+ * 2. Education: This section presents the individual's academic background, including their major, university, and relevant coursework.
+ * 3. Projects: This section showcases the individual's key projects and contributions.
+ * 4. Resume: This section provides a downloadable link to the individual's resume.
+ * 5. Contact: This section provides the individual's contact information and links to their LinkedIn, GitHub, etc.
+ * 
+ * Bootstrap, a popular CSS Framework, is used to ensure the website is responsive and well-structured. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Matthew McFarland's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+
+    <!-- Landing page section -->
+<section id="landing" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Introduction...</p>
+                <a href="#about" class="btn btn-primary">Learn More About Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- You can replace this with your own picture -->
+                <img src="your_picture.jpg" class="img-fluid rounded-circle mb-3" alt="Matthew McFarland">
+            </div>
+            <div class="col-lg-6">
+                <h2>About Me</h2>
+                <p>Hi there! My name is Matthew McFarland, a soon-to-be Computer Science graduate from South Jersey, poised to graduate a year early. Born into a family with a keen interest in technology, I found my passion for software development early on. The thrill of problem-solving and the joy of creating something new has always been the driving force behind my love for this field.</p>
+                <p>I'm particularly proud of a project where I conducted statistical analysis on S&P 500 stock data. This project allowed me to interpret real-world data, identify trends, and make predictions, showcasing my analytical skills and interest in data-driven decision making.</p>
+                <p>Machine Learning and AI are areas that fascinate me the most, and they were the initial sparks that ignited my interest in Computer Science. I'm currently working on a neural network designed to predict market data, which perfectly combines my passion for technology and economy.</p>
+                <p>Outside the realm of coding, I'm an active individual who loves sports, gym workouts, and training in Brazilian Jiu-Jitsu. I also enjoy video games and have a strong interest in game design. As a futurist, I am always keen on learning about emerging technologies and exploring how they can shape our future.</p>
+                <p>Living with ADHD has been both a challenge and a blessing. It has at times presented hurdles, particularly when it comes to organization. However, I've learned to leverage it as one of my greatest strengths. It fuels my desire to keep my brain stimulated, a trait that constantly drives me to work harder and push my boundaries. My high school wrestling years played a pivotal role in shaping this aspect of my personality, teaching me that perseverance, discipline, and a strong work ethic can overcome any challenge.</p>
+                <p>With these experiences, I've come to see myself as a hard-working individual committed to personal growth and continuous learning. As I stand on the threshold of the corporate world, I am eager to bring my skills, passion, and dedication to an environment where I can make a tangible difference. Despite acknowledging my areas for improvement, I see them not as weaknesses, but as opportunities for growth. With a future that promises myriad learning opportunities, I am excited for the journey that lies ahead.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="education" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Education</h2>
+                <div class="edu">
+                    <h4>Bachelor of Science in Computer Science</h4>
+                    <h5>Rowan University, Glassboro, New Jersey</h5>
+                    <p>Expected Graduation: May 2024</p>
+                    <p>Relevant Coursework:</p>
+                    <ul>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Data Analysis and Algorithms</li>
+                        <li>Foundations of Computer Science</li>
+                        <li>Programming Languages</li>
+                        <li>Computer Organization</li>
+                        <li>Operating Systems</li>
+                        <li>Software Engineering</li>
+                        <li>Database Systems</li>
+                        <li>Introduction to Machine Learning</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Calculus 1</li>
+                        <li>Calculus 2</li>
+                        <li>Discrete Structures</li>
+                        <li>Probability and Statistics in Computing</li>
+                        <li>Linear Algebra</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Projects</h2>
+                <div class="project-categories">
+                    <h4>School Projects</h4>
+                    <ul>
+                        <h6>Data Structures and Algorithms</h6>
+                        <!-- Each list item represents a project. The anchor tag should link to the project's GitHub repository. -->
+                                <li><a href="https://github.com/username/project1">Project 1</a></li>
+                        <h6>Data Analysis and Algorithms</h6>
+                                <li><a href="https://github.com/mattmcf16/daaProjects/tree/master/src/main/java/satproject">SAT Solver</a></li>
+                                <li><a href="https://github.com/mattmcf16/daaProjects/tree/master/src/main/java/satproject">Sudoku Solver Using SAT </a></li>
+                        <h6>Probability and Statistics in Computing</h6>
+                    </ul>
+                    <h4>Personal Projects</h4>
+                    <ul>
+                        <li><a href="https://github.com/username/project3">Project 3</a></li>
+                        <li><a href="https://github.com/username/project4">Project 4</a></li>
+                    </ul>
+                    <h4>Challenges</h4>
+                    <ul>
+                        <li><a href="https://github.com/username/challenge1">Challenge 1</a></li>
+                        <li><a href="https://github.com/username/challenge2">Challenge 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Resume section -->
+<section id="resume" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Resume</h2>
+                <p>Click the button below to download my resume:</p>
+                <!-- Replace 'path_to_your_resume.pdf' with the actual path to your resume PDF -->
+                <a href="path_to_your_resume.pdf" download class="btn btn-primary">Download Resume</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact & Links section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Contact Information & Links</h2>
+                <ul>
+                    <!-- Replace placeholders with your actual contact information -->
+                    <li>Email: <a href="mailto:mattmcf16@yahoo.com">mattmcf16@yahoo.com</a></li>
+                    <li>Phone: <a href="tel:856-761-2234">856-761-2234</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/yourusername/" target="_blank">LinkedIn Profile</a></li>
+                    <li>GitHub: <a href="https://github.com/mattmcf16" target="_blank">GitHub Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+</body>
+
+</html>
